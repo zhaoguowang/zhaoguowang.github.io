@@ -391,7 +391,7 @@ const content = {
       honors: "Academic Honors",
       fundedProjects: "Research Projects",
       academicService: "Academic Service",
-      studentDestinations: "Student Destinations",
+      studentDestinations: "Alumni",
     },
     hero: {
       name: "Zhaoguo Wang",
@@ -750,8 +750,8 @@ const content = {
       ],
     },
     studentDestinations: {
-      eyebrow: "Students",
-      title: "Student Destinations",
+      eyebrow: "Alumni",
+      title: "Alumni",
       items: [
         { name: "Haoran Ding", destination: "MIT (Postdoc)", href: "https://haoran-ding.github.io/" },
         { name: "Chuzhe Tang", destination: "EPFL (Postdoc)", href: "https://chuzhe.me/" },
