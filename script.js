@@ -395,7 +395,7 @@ const content = {
     },
     hero: {
       name: "Zhaoguo Wang",
-      role: "Professor and PhD Advisor · School of Computer Science, Shanghai Jiao Tong University",
+      role: "School of Computer Science, Shanghai Jiao Tong University · Professor (PhD Advisor)",
       contact: "Contact: zhaoguowang@sjtu.edu.cn",
       lead:
         "I study how to make real-world complex systems both fast and reliable: from parallel and distributed database systems, to formal-methods-backed reasoning about system code, to AI-native infrastructure that can design, execute, and optimize scientific experiments.",
@@ -520,7 +520,7 @@ const content = {
       eyebrow: "Teaching",
       title: "Teaching",
       note:
-        "I have taught courses on computer systems organization, operating systems, and computer systems engineering at New York University and Shanghai Jiao Tong University. I currently teach two courses: Discrete Mathematics for undergraduates, and Parallel and Distributed Database Systems for graduate students.",
+        "I have taught courses on computer systems organization, operating systems, and computer systems engineering at New York University and Shanghai Jiao Tong University. I currently teach two courses: Discrete Mathematics (Undergraduate) and Parallel and Distributed Database Systems (Graduate).",
       courses: [
         {
           title: "Discrete Mathematics",
@@ -755,9 +755,9 @@ const content = {
       items: [
         { name: "Haoran Ding", destination: "MIT (Postdoc)", href: "https://haoran-ding.github.io/" },
         { name: "Chuzhe Tang", destination: "EPFL (Postdoc)", href: "https://chuzhe.me/" },
-        { name: "Dexin Zhang", destination: "Princeton University, PhD" },
-        { name: "Zhanghan Wang", destination: "New York University, PhD", href: "https://rabbitwhite1.github.io/" },
-        { name: "Ding Ding", destination: "New York University, PhD", href: "https://derfischer.github.io/" },
+        { name: "Dexin Zhang", destination: "Princeton University (PhD)" },
+        { name: "Zhanghan Wang", destination: "New York University (PhD)", href: "https://rabbitwhite1.github.io/" },
+        { name: "Ding Ding", destination: "New York University (PhD)", href: "https://derfischer.github.io/" },
         { name: "Jinyuan Zhang", destination: "ByteDance", href: "https://ipads.se.sjtu.edu.cn/zh/pub/members/jinyuan_zhang" },
         { name: "Qianmian Yu", destination: "Jump Trading", href: "https://ipads.se.sjtu.edu.cn/zh/pub/members/qianmian_yu" },
         { name: "Xiaodong Zhang", destination: "Alibaba", href: "https://ipads.se.sjtu.edu.cn/zh/pub/members/xiaodong_zhang" },
