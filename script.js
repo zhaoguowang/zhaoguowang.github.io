@@ -384,18 +384,18 @@ const content = {
     htmlLang: "en",
     title: "Zhaoguo Wang",
     nav: {
-      researchAgenda: "Research Areas",
+      researchAgenda: "Research Directions",
       researchProjects: "Representative Work",
       publications: "Publications",
       teaching: "Teaching",
-      honors: "Honors",
-      fundedProjects: "Research Grants",
-      academicService: "Service",
-      studentDestinations: "Alumni",
+      honors: "Academic Honors",
+      fundedProjects: "Research Projects",
+      academicService: "Academic Service",
+      studentDestinations: "Student Destinations",
     },
     hero: {
       name: "Zhaoguo Wang",
-      role: "Professor · School of Computer Science, Shanghai Jiao Tong University",
+      role: "Professor and PhD Advisor · School of Computer Science, Shanghai Jiao Tong University",
       contact: "Contact: zhaoguowang@sjtu.edu.cn",
       lead:
         "I study how to make real-world complex systems both fast and reliable: from parallel and distributed database systems, to formal-methods-backed reasoning about system code, to AI-native infrastructure that can design, execute, and optimize scientific experiments.",
@@ -407,29 +407,29 @@ const content = {
       ],
     },
     researchAgenda: {
-      eyebrow: "Research Areas",
-      title: "Research Areas",
+      eyebrow: "Research Directions",
+      title: "Research Directions",
       note:
         "My research focuses on the theory and architecture of system software, organized into the following three aspects according to specific application scenarios:",
       projectLabel: "Representative work:",
       items: [
         {
           id: "ai-native-systems",
-          title: "Autonomous Programming",
+          title: "Autonomous Programming Paradigms for System Software",
           description:
             "Current Coding Agents have the potential to autonomously write complex system software such as operating systems and databases. The core challenge is how to ensure the correctness, performance, and reliability of autonomously generated systems while enabling them to evolve autonomously.",
           projects: ["FM-Agent"],
         },
         {
           id: "verified-data-systems",
-          title: "Modern Web Applications",
+          title: "Data System Theory for Web Applications",
           description:
             "Modern Web applications are continuously reshaping how data management systems are used. The core question is how to define database-system abstractions and foundational theory so as to balance consistency, reliability, performance, and other multidimensional requirements.",
           projects: ["SQLSolver", "WeTune", "Ad Hoc Transactions"],
         },
         {
           id: "autonomous-science",
-          title: "Autonomous Science",
+          title: "System Software Stack for Autonomous Research",
           description:
             "For the emerging autonomous-science paradigm in biology, chemistry, and other fields, the core question is how to design system-software abstractions and architectures so that AI models can understand scientific goals and instrument capabilities, enabling long-term, stable, and reproducible autonomous scientific discovery.",
           projects: ["AutoDNA"],
@@ -440,7 +440,7 @@ const content = {
       eyebrow: "Publications",
       title: "Publications",
       note:
-        "The following papers were published under my group's leadership. * denotes corresponding author; † denotes first author.",
+        "The following is a list of papers primarily led by my group. I have also participated in other interesting work, which is not included here.",
       expandLabel: "Learn more",
       collapseLabel: "Show less",
       groups: [
@@ -479,15 +479,15 @@ const content = {
         "2025 CCF Young Scientist Award",
         "2024 Communications of the ACM Research Highlight and Cover Article",
         "2023 ACM SIGMOD Research Highlight Award",
-        "2022 ACM SIGMOD Best Paper Honorable Mention",
+        "2022 ACM SIGMOD Best Paper Award Runner-up",
         "2022 Huawei Spark Award",
         "2021 ACM ChinaSys Rising Star",
         "2020 Huawei OlympusMons Pioneer Award",
       ],
     },
     fundedProjects: {
-      eyebrow: "Grants",
-      title: "Research Grants",
+      eyebrow: "Projects",
+      title: "Research Projects",
       items: [
         {
           agency: "National Natural Science Foundation of China",
@@ -518,7 +518,7 @@ const content = {
     },
     teaching: {
       eyebrow: "Teaching",
-      title: "Course Teaching",
+      title: "Teaching",
       note:
         "I have taught courses on computer systems organization, operating systems, and computer systems engineering at New York University and Shanghai Jiao Tong University. I currently teach two courses: Discrete Mathematics for undergraduates, and Parallel and Distributed Database Systems for graduate students.",
       courses: [
@@ -542,13 +542,13 @@ const content = {
       eyebrow: "Work",
       title: "Representative Work",
       note:
-        "Representative work is grouped by research area. We can keep refining the background, papers, and code links for each work.",
+        "Around the research directions above, I have worked with my students and colleagues on a series of interesting projects. The following are several representative works that I personally like:",
       detailLabel: "Details",
       learnMoreLabel: "Learn more",
       groups: [
         {
           id: "projects-ai-native-systems",
-          title: "Autonomous Programming",
+          title: "Autonomous Programming Paradigms for System Software",
           items: [
             {
               slug: "fm-agent",
@@ -561,7 +561,7 @@ const content = {
                 alt: "FM-Agent demo animation",
               },
               summary:
-                "Combining Coding Agents with formal-methods ideas to generate specifications, reason about correctness, and diagnose bugs in real system code.",
+                "Deeply integrating formal methods with large language models to automatically reason about the correctness of large-scale system software, and collaborating with programming agents to form a complete closed loop for autonomous system-software programming.",
               question: "What if formal methods could read large-scale system code by themselves?",
               story:
                 "Formal verification has long been constrained by specification writing and manual modeling. FM-Agent asks an agent to infer function intent, generate correctness specifications, reason with natural-language Hoare logic, and diagnose bugs from its reasoning trace. It moves the story from proving a small model to collaborating with real codebases.",
@@ -569,8 +569,8 @@ const content = {
               links: [{ label: "Website", href: "https://fm-agent.ai/" }],
               details: {
                 intro: [
-                  "FM-Agent studies correctness for system code in the era of Coding Agents. It combines large language models with formal-methods ideas to infer intent from real code, generate correctness specifications, and reason about bugs.",
-                  "The goal is to move formal reasoning from small models toward real codebases, making it a foundational capability for autonomously building system software.",
+                  "FM-Agent studies correctness for system code in the era of Coding Agents. It lets large language models and formal methods work together to infer function intent from real system code, generate correctness specifications, and reason about bugs around those specifications.",
+                  "The goal is not to keep formal verification confined to small models, but to bring formal reasoning into real codebases as a foundational capability for ensuring correctness, performance, and reliability in autonomous system-software programming.",
                 ],
                 news: ["The FM-Agent project website is online; papers, demos, and code information will be added as they become ready."],
                 websites: [{ label: "FM-Agent Website", href: "https://fm-agent.ai/" }],
@@ -583,7 +583,7 @@ const content = {
         },
         {
           id: "projects-autonomous-science",
-          title: "Autonomous Science",
+          title: "System Software Stack for Autonomous Research",
           items: [
             {
               slug: "autodna",
@@ -596,7 +596,7 @@ const content = {
                 alt: "AutoDNA demo animation",
               },
               summary:
-                "Treating autonomous laboratories as a systems problem that connects models, workflows, and instruments into a long-running discovery loop.",
+                "Building an AI-native system software stack for autonomous scientific laboratories, enabling models to understand instrument capabilities, instruments to leverage model intelligence, and complex experiments to be autonomously designed, executed, and optimized toward autonomous scientific discovery.",
               question: "Can AI manage complex experiments, not merely suggest them?",
               story:
                 "AutoDNA frames an autonomous laboratory as an AI-native systems problem: models, experiments, and instruments are co-designed; multiple user requests arrive concurrently; the system generates procedures and optimization heuristics. It brings systems research into nucleic-acid synthesis, transcription, amplification, and sequencing.",
@@ -618,7 +618,7 @@ const content = {
         },
         {
           id: "projects-verified-data-systems",
-          title: "Modern Web Applications",
+          title: "Data System Theory for Web Applications",
           items: [
             {
               slug: "ad-hoc-transactions",
@@ -631,7 +631,7 @@ const content = {
                 alt: "CACM cover highlighting Many Faces of Ad Hoc Transactions",
               },
               summary:
-                "Revisiting transaction semantics hidden in Web application code and defining better consistency abstractions for modern data systems.",
+                "Revisiting transaction semantics hidden in Web application business logic, and defining more suitable consistency abstractions for modern data systems so that Web applications can meet consistency requirements while improving performance scalability.",
               question: "How do web applications preserve consistency when transactions are not explicit?",
               story:
                 "Many web applications assemble temporary transaction semantics in application code instead of declaring them cleanly at the database layer. This line of work exposes those hidden patterns, explains why they exist, where they help, and where they fail, creating abstractions that later tools can use.",
@@ -659,7 +659,7 @@ const content = {
                 alt: "WeTune query rewriting demo animation",
               },
               summary:
-                "Discovering query rewrite rules from real SQL, turning database optimization knowledge from expert tricks into generated system knowledge.",
+                "Automatically synthesizing high-quality SQL optimization rules based on superoptimization, and using SQLSolver to verify the correctness of synthesized rules, reducing the long cycle and high cost of traditional hand-written optimization rules; the technology has been deployed in the commercial version of GaussDB.",
               question: "Can database rewrite rules be discovered automatically from real SQL?",
               story:
                 "Query rewriting often behaves like a handbook of expert tricks: useful, but hard to scale systematically. WeTune discovers potential rewrite rules from real SQL, making optimization knowledge something that can be mined from application practice.",
@@ -668,9 +668,9 @@ const content = {
               details: {
                 intro: [
                   "WeTune studies automatic discovery of database query rewrite rules. Traditional query optimization relies heavily on expert knowledge, while real SQL from modern Web applications makes automatic rule discovery possible.",
-                  "The project discovers potential rewrite rules from real queries, turning optimization knowledge from hand-written expertise into something systems can generate, expand, and reuse.",
+                  "The project synthesizes high-quality rewrite rules from real queries, uses SQLSolver to verify their correctness, and turns optimization knowledge from hand-written expertise into something systems can generate, expand, and reuse.",
                 ],
-                news: ["WeTune explores automatic discovery and systematic generation of query rewrite rules from real SQL."],
+                news: ["WeTune explores automatic discovery and systematic generation of query rewrite rules from real SQL, and has been deployed in the commercial version of GaussDB."],
                 websites: [{ label: "WeRewriter Demo", href: "https://ipads.se.sjtu.edu.cn/werewriter-demo/home" }],
                 papers: [{ label: "WeTune: Automatic Discovery and Verification of Query Rewrite Rules" }],
                 code: [{ label: "Code information to be added" }],
@@ -687,7 +687,7 @@ const content = {
                 alt: "SQLSolver equivalence checking demo animation",
               },
               summary:
-                "Proving SQL query equivalence with formal methods, so rewrite rules and optimization results can be checked by logic.",
+                "SQL equivalence verification is a core database problem. By proposing a new SQL verification theory, SQLSolver achieves full coverage of the SQL-92 standard and has been applied to correctness verification, performance optimization, and other scenarios in commercial database systems.",
               question: "Can SQL query equivalence be proved systematically?",
               story:
                 "Once rewrite rules can be discovered automatically, the next question is how to trust them. SQLSolver proves query equivalence using linear integer arithmetic, turning optimization judgments into checkable logical proofs.",
@@ -698,8 +698,8 @@ const content = {
               ],
               details: {
                 intro: [
-                  "SQLSolver studies formal proof of SQL query equivalence. Whether a rewrite is correct is the central question once database optimizations can be generated systematically.",
-                  "The project proves query equivalence using linear integer arithmetic, making database rewrite rules and optimization results checkable by logical tools.",
+                  "SQLSolver studies formal proof of SQL query equivalence, a core problem in database systems. Whether a rewrite is correct is the central question once database optimizations can be generated systematically.",
+                  "By proposing a new verification theory with full SQL-92 coverage, SQLSolver makes database rewrite rules and optimization results checkable by logical tools, and has been used in correctness verification and performance optimization for commercial database systems.",
                 ],
                 news: ["SQLSolver advances verified query optimization from the equivalence-proving side."],
                 websites: [{ label: "SQLSolver Demo", href: "https://sqlsolver.systems/sqlsolver/home" }],
@@ -727,11 +727,11 @@ const content = {
         {
           title: "Community and Professional Service",
           items: [
-            "Lead of the Intelligent Data Management TSG, OpenHarmony Technical Steering Committee",
+            "Lead of the OpenHarmony Intelligent Data Management TSG",
             "Secretary-General of ACM ChinaSys",
             "Member of the CCF Academic Working Committee",
-            "Vice President of the Shanghai Computer Industry Association",
             "Co-chair of the 22nd Xiuhu Forum",
+            "Vice President of the Shanghai Computer Industry Association",
           ],
         },
         {
@@ -845,13 +845,14 @@ function renderCourses(courses) {
 }
 
 function renderFundedProjects(projects) {
+  const separator = document.documentElement.lang === "zh-CN" ? "，" : ", ";
   return projects
     .map(
       (project) => `
         <article class="funded-project-item">
           <h3>${project.title}</h3>
-          <p>${project.agency}，${project.type}，${project.number}</p>
-          <p>${project.period}，${project.role}</p>
+          <p>${project.agency}${separator}${project.type}${separator}${project.number}</p>
+          <p>${project.period}${separator}${project.role}</p>
         </article>
       `,
     )
