@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>王肇国 | Zhaoguo Wang</title>
+    <meta
+      name="description"
+      content="王肇国，上海交通大学计算机学院教授。研究可信 AI-native 系统、数据系统的自动化验证与优化，以及自动化科学基础设施。"
+    >
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="main-nav" aria-label="Primary navigation">
+        <a href="#research-agenda" data-nav="researchAgenda">研究方向</a>
+        <div class="nav-dropdown">
+          <a href="#research-projects" data-nav="researchProjects">代表性工作</a>
+          <div class="nav-dropdown-menu" id="work-nav-menu" aria-label="Representative work pages"></div>
+        </div>
+        <a href="#publications" data-nav="publications">发表论文</a>
+        <a href="#teaching" data-nav="teaching">课程教学</a>
+        <a href="#honors" data-nav="honors">学术荣誉</a>
+        <a href="#funded-projects" data-nav="fundedProjects">科研项目</a>
+        <a href="#academic-service" data-nav="academicService">学术服务</a>
+        <a href="#student-destinations" data-nav="studentDestinations">学生去向</a>
+      </nav>
+      <button class="language-toggle" id="language-toggle" type="button">EN</button>
+    </header>
+
+    <main id="top">
+      <section class="hero-section" aria-labelledby="hero-name">
+        <div class="hero-inner">
+          <div class="hero-copy">
+            <h1 id="hero-name"></h1>
+            <p class="role-line" id="hero-role"></p>
+            <p class="role-line contact-line" id="hero-contact"></p>
+            <div class="hero-interest">
+              <div class="hero-lead" id="hero-lead"></div>
+            </div>
+          </div>
+          <figure class="portrait-frame">
+            <img
+              src="https://cs.sjtu.edu.cn/upload/image/jiaoshiml/%E7%8E%8B%E8%82%87%E5%9B%BD.jpg"
+              alt="Portrait of Zhaoguo Wang"
+            >
+          </figure>
+        </div>
+      </section>
+
+      <section class="section-band subtle" id="research-agenda" aria-labelledby="research-agenda-title">
+        <div class="content-grid research-agenda-grid">
+          <div class="section-heading">
+            <p class="eyebrow" id="research-agenda-eyebrow"></p>
+            <h2 id="research-agenda-title"></h2>
+            <p class="section-note" id="research-agenda-note"></p>
+          </div>
+          <div class="research-direction-stack" id="research-direction-stack"></div>
+        </div>
+      </section>
+
+      <section class="section-band" id="research-projects" aria-labelledby="research-projects-title">
+        <div class="content-grid compact-grid work-section-grid">
+          <div class="section-heading">
+            <p class="eyebrow" id="research-projects-eyebrow"></p>
+            <h2 id="research-projects-title"></h2>
+            <p class="section-note" id="research-projects-note"></p>
+          </div>
+          <div class="research-project-stack" id="research-projects-stack"></div>
+        </div>
+      </section>
+
+      <section class="section-band quiet" id="publications" aria-labelledby="publications-title">
+        <div class="content-grid publications-grid">
+          <div class="section-heading">
+            <p class="eyebrow" id="publications-eyebrow"></p>
+            <h2 id="publications-title"></h2>
+            <p class="section-note" id="publications-note"></p>
+          </div>
+          <div class="publication-list-panel">
+            <div class="publication-stack" id="publication-stack"></div>
+            <button class="publication-toggle" id="publication-toggle" type="button" aria-expanded="false"></button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-band subtle" id="teaching" aria-labelledby="teaching-title">
+        <div class="content-grid compact-grid teaching-grid">
+          <div class="section-heading">
+            <p class="eyebrow" id="teaching-eyebrow"></p>
+            <h2 id="teaching-title"></h2>
+            <p class="section-note" id="teaching-note"></p>
+          </div>
+          <div class="course-list" id="teaching-list"></div>
+        </div>
+      </section>
+
+      <section class="section-band subtle" id="honors" aria-labelledby="honors-title">
+        <div class="content-grid compact-grid honors-grid">
+          <div class="section-heading">
+            <p class="eyebrow" id="honors-eyebrow"></p>
+            <h2 id="honors-title"></h2>
+          </div>
+          <ul class="plain-list standalone-list" id="honors-list"></ul>
+        </div>
+      </section>
+
+      <section class="section-band" id="funded-projects" aria-labelledby="funded-projects-title">
+        <div class="content-grid compact-grid funded-projects-grid">
+          <div class="section-heading">
+            <p class="eyebrow" id="funded-projects-eyebrow"></p>
+            <h2 id="funded-projects-title"></h2>
+          </div>
+          <div class="funded-project-list" id="funded-projects-list"></div>
+        </div>
+      </section>
+
+      <section class="section-band" id="academic-service" aria-labelledby="academic-service-title">
+        <div class="content-grid compact-grid academic-service-grid">
+          <div class="section-heading">
+            <p class="eyebrow" id="academic-service-eyebrow"></p>
+            <h2 id="academic-service-title"></h2>
+          </div>
+          <div class="academic-service-list" id="academic-service-list"></div>
+        </div>
+      </section>
+
+      <section class="section-band subtle" id="student-destinations" aria-labelledby="student-destinations-title">
+        <div class="content-grid compact-grid student-destinations-grid">
+          <div class="section-heading">
+            <p class="eyebrow" id="student-destinations-eyebrow"></p>
+            <h2 id="student-destinations-title"></h2>
+          </div>
+          <div class="student-destination-list" id="student-destinations-list"></div>
+        </div>
+      </section>
+
+    </main>
+
+    <script src="./publications.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
