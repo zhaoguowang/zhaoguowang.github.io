@@ -395,7 +395,7 @@ const content = {
     },
     hero: {
       name: "Zhaoguo Wang",
-      role: "School of Computer Science, Shanghai Jiao Tong University · Professor (PhD Advisor)",
+      role: "Professor · School of Computer Science, Shanghai Jiao Tong University",
       contact: "Contact: zhaoguowang@sjtu.edu.cn",
       lead:
         "I study how to make real-world complex systems both fast and reliable: from parallel and distributed database systems, to formal-methods-backed reasoning about system code, to AI-native infrastructure that can design, execute, and optimize scientific experiments.",
@@ -482,7 +482,7 @@ const content = {
         "2022 ACM SIGMOD Best Paper Award Runner-up",
         "2022 Huawei Spark Award",
         "2021 ACM ChinaSys Rising Star",
-        "2020 Huawei OlympusMons Pioneer Award",
+        "2020 Huawei Olympus Pioneer Award",
       ],
     },
     fundedProjects: {
@@ -730,7 +730,7 @@ const content = {
             "Lead of the OpenHarmony Intelligent Data Management TSG",
             "Secretary-General of ACM ChinaSys",
             "Member of the CCF Academic Working Committee",
-            "Co-chair of the 22nd Xiuhu Forum",
+            "Co-chair of the 22nd Beautiful Lake Seminars",
             "Vice President of the Shanghai Computer Industry Association",
           ],
         },
@@ -739,8 +739,8 @@ const content = {
           items: [
             "Data Science and Engineering (DSE)",
             "Frontiers of Computer Science (FCS)",
-            "Communications of the China Computer Federation (CCCF)",
-            "Acta Electronica Sinica",
+            "Communications of CCF (CCCF)",
+            "Chinese Journal of Electronics",
           ],
         },
         {
