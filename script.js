@@ -58,7 +58,7 @@ const content = {
     publications: {
       eyebrow: "论文",
       title: "发表论文",
-      note: "以下是我带领团队主导发表的论文列表，我也参与和一些有趣的工作，但不包含在这个列表中。",
+      note: "以下是我带领团队主导发表的论文列表，我也参与了一些有趣的工作，但不包含在这个列表中。",
       expandLabel: "Learn more",
       collapseLabel: "Show less",
       groups: [
