@@ -207,7 +207,7 @@ const content = {
               status: "新方向",
               year: "2025",
               title: "AutoDNA",
-              detailHref: "https://arxiv.org/abs/2507.02379",
+              detailHref: "https://ipads.se.sjtu.edu.cn/autodna/",
               media: {
                 src: "./assets/autodna.gif",
                 alt: "AutoDNA demo animation",
@@ -218,14 +218,14 @@ const content = {
               story:
                 "AutoDNA 把 autonomous laboratory 做成一个 AI-native 系统问题：模型、实验和仪器共同设计，多用户请求并发进入，系统自动生成实验流程和优化启发式。它把系统研究带到核酸合成、转录、扩增和测序等复杂实验场景。",
               tags: ["AI for science", "autonomous lab", "biomolecular engineering"],
-              links: [{ label: "Paper", href: "https://arxiv.org/abs/2507.02379" }],
+              links: [{ label: "Website", href: "https://ipads.se.sjtu.edu.cn/autodna/" }],
               details: {
                 intro: [
                   "AutoDNA 面向自主科学实验室这一新兴应用场景，研究如何让模型、领域数据和实验仪器形成可长期运行的系统闭环。",
                   "项目以 DNA 相关实验流程为切入点，把实验设计、仪器执行、反馈优化和多用户请求管理放到同一个系统软件问题中，探索自主科研所需要的软件体系。",
                 ],
-                news: ["AutoDNA 论文预印本已发布，后续将继续补充项目网站、实验演示和代码信息。"],
-                websites: [{ label: "项目网站整理中" }],
+                news: ["AutoDNA 项目网站和论文预印本已发布，后续将继续补充系统演示和代码信息。"],
+                websites: [{ label: "AutoDNA 项目网站", href: "https://ipads.se.sjtu.edu.cn/autodna/" }],
                 papers: [{ label: "AutoDNA", href: "https://arxiv.org/abs/2507.02379" }],
                 code: [{ label: "代码信息整理中" }],
               },
@@ -590,7 +590,7 @@ const content = {
               status: "New direction",
               year: "2025",
               title: "AutoDNA",
-              detailHref: "https://arxiv.org/abs/2507.02379",
+              detailHref: "https://ipads.se.sjtu.edu.cn/autodna/",
               media: {
                 src: "./assets/autodna.gif",
                 alt: "AutoDNA demo animation",
@@ -601,14 +601,14 @@ const content = {
               story:
                 "AutoDNA frames an autonomous laboratory as an AI-native systems problem: models, experiments, and instruments are co-designed; multiple user requests arrive concurrently; the system generates procedures and optimization heuristics. It brings systems research into nucleic-acid synthesis, transcription, amplification, and sequencing.",
               tags: ["AI for science", "autonomous lab", "biomolecular engineering"],
-              links: [{ label: "Paper", href: "https://arxiv.org/abs/2507.02379" }],
+              links: [{ label: "Website", href: "https://ipads.se.sjtu.edu.cn/autodna/" }],
               details: {
                 intro: [
                   "AutoDNA studies autonomous laboratories as a new systems-software scenario, where models, domain data, and scientific instruments must form a long-running closed loop.",
                   "Starting from DNA-related workflows, the project connects experiment design, instrument execution, feedback optimization, and multi-user request management as one system problem.",
                 ],
-                news: ["The AutoDNA preprint is available; project website, demos, and code information will be added later."],
-                websites: [{ label: "Project website to be added" }],
+                news: ["The AutoDNA project website and preprint are available; demos and code information will be added later."],
+                websites: [{ label: "AutoDNA Website", href: "https://ipads.se.sjtu.edu.cn/autodna/" }],
                 papers: [{ label: "AutoDNA", href: "https://arxiv.org/abs/2507.02379" }],
                 code: [{ label: "Code information to be added" }],
               },
