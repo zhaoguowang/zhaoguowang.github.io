@@ -58,7 +58,7 @@ const content = {
     publications: {
       eyebrow: "论文",
       title: "发表论文",
-      note: "以下是我带领团队主导发表的论文列表，我也参与了一些有趣的工作，但不包含在这个列表中。",
+      note: "以下是我带领团队主导发表的论文列表，我也参与了一些有趣的工作，但不包含在这个列表中。† 共同一作，* 通讯或共同通讯",
       expandLabel: "Learn more",
       collapseLabel: "Show less",
       groups: [
@@ -440,7 +440,7 @@ const content = {
       eyebrow: "Publications",
       title: "Publications",
       note:
-        "The following is a list of papers primarily led by my group. I have also participated in other interesting work, which is not included here.",
+        "The following is a list of papers primarily led by my group. I have also participated in other interesting work, which is not included here. † Co-first authors; * Corresponding or co-corresponding authors.",
       expandLabel: "Learn more",
       collapseLabel: "Show less",
       groups: [

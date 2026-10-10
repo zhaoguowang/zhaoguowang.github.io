@@ -5,6 +5,10 @@ window.ipadsPublicationsHtml = String.raw`
 </p>
 
 <p>
+[<strong>Nature</strong>] An AI-native experimental laboratory for autonomous biomolecular operations. Mingyu Wu, <strong>Zhaoguo Wang</strong><sup>†*</sup>, Jiabin Wang, Zhiyuan Dong, Jingkai Yang, Qingting Li, Tianyu Huang, Chi Zhang, Ping Song, Lei Zhao, Mingqiang Li, Xiaolei Zuo, Fei Wang, Chunhai Fan, Haibo Chen. Nature. (Accepted in September, 2026).
+</p>
+
+<p>
 [<strong>arXiv</strong>] FM-Agent: Scaling Formal Methods to Large Systems via LLM-Based Hoare-Style Reasoning. Haoran Ding, <strong>Zhaoguo Wang</strong>*, and Haibo Chen. arXiv:2604.11556, 2026. (<a href="https://arxiv.org/abs/2604.11556" class="urlextern" target="_tab" title="https://arxiv.org/abs/2604.11556" rel="ugc nofollow noopener">Paper</a>)
 </p>
 
@@ -18,10 +22,6 @@ window.ipadsPublicationsHtml = String.raw`
 
 <p>
 <em class="u"><strong>2025</strong></em>
-</p>
-
-<p>
-[<strong>arXiv</strong>] An AI-native experimental laboratory for autonomous biomolecular engineering. Mingyu Wu, <strong>Zhaoguo Wang</strong><sup>†*</sup>, Jiabin Wang, Zhiyuan Dong, Jingkai Yang, Qingting Li, Tianyu Huang, Lei Zhao, Mingqiang Li, Fei Wang, Chunhai Fan, and Haibo Chen. arXiv:2507.02379, 2025. (<a href="https://arxiv.org/abs/2507.02379" class="urlextern" target="_tab" title="https://arxiv.org/abs/2507.02379" rel="ugc nofollow noopener">Paper</a>)
 </p>
 
 <p>
